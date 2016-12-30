@@ -20,6 +20,8 @@
 
 - (void)viewDidLoad{
     
+    
+    
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
     {
         UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes: (UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeSound) categories:nil];
